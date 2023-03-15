@@ -1,9 +1,13 @@
+:root {
+    --hair-color: #F88C28;
+    --face-color: #f1d321;
+}
 body{
-    background: #FFA8A8;
+    background: #b4d9f3;
 }
 
 .hair {
-    background: #E89F5D;
+    background: var(--hair-color);
     width: 350px;
     height: 350px;
     position: absolute;
@@ -20,14 +24,14 @@ body{
     height: 350px;
     width: 350px;
     border-radius: 25px;
-    background: #E89F5D;
+    background: var(--hair-color);
     transform: rotate(135deg);
 }
 
 .face{
     width: 300px;
     height: 300px;
-    background: #EFCD77;
+    background: var(--face-color);
     border-radius: 50%;
 
     position: absolute;
